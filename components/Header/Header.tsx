@@ -8,10 +8,10 @@ const Header = () => {
     <section className="flex justify-between">
       <div className="w-32 h-16 ml-44 my-2"><Image width={100} height={50} layout="responsive" src={logo} alt="Logo" /></div>
       <div className="flex w-2/4 justify-around items-center mr-32">
-        <Link href="#offers">Услуги</Link>
-        <Link href="#advantage">Преимущества</Link>
-        <Link href="#lineaments">О нас</Link>
-        <Link href="#contacts">Контакты</Link>
+        <Link href="#offers" passHref><button className="text-xl text-third-main">Услуги</button></Link>
+        <Link href="#advantage" passHref><button className="text-xl text-third-main">Преимущества</button></Link>
+        <Link href="#lineaments" passHref><button className="text-xl text-third-main">О нас</button></Link>
+        <Link href="#contacts" passHref><button className="text-xl text-third-main">Контакты</button></Link>
       </div>
     </section>
   );

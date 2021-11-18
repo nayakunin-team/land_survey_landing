@@ -13,7 +13,7 @@ interface Card {
 const Item = ({card}: Card) => {
   return (
     <>
-      <div className="flex items-center">
+      <div className="flex">
         <div className="w-20 h-20 flex justify-center items-center rounded-full bg-primary-dark">
           <p className="text-5xl font-bold text-center text-primary-main">{card.number}</p>
         </div>
