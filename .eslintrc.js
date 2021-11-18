@@ -4,8 +4,10 @@ module.exports = {
         "es2021": true
     },
     "extends": [
+        "next/core-web-vitals",
+        "google",
         "plugin:react/recommended",
-        "google"
+        "prettier",
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
