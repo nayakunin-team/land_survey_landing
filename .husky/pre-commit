@@ -1,0 +1,14 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+#change format by prettier
+npm run format
+
+#check tsconfig
+npm run check-types
+
+#check next ESLint
+npm run lint
+
+#check Prettier format
+npm run check-format
