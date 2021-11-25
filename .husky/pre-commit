@@ -1,0 +1,11 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+#check next ESLint
+npm run lint
+
+#check tsconfig
+npm run check-types
+
+#change format by prettier
+npm run format
