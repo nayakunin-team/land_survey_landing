@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Item from "./components/Item";
 import edit from "../../public/edit.svg";
 import ok from "../../public/ok.svg";

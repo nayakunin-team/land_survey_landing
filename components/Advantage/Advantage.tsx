@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Image from "next/image";
 import Item from "./components/Item";
 import next from "../../public/next.svg";
